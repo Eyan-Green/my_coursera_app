@@ -45,6 +45,11 @@ group :development do
   gem 'rails_12factor'
 end
 
+group :production do 
+	gem 'pg'
+	gem 'rails_12factor'
+end 
+
 gem 'httparty', '0.13.5'
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
