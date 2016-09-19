@@ -46,6 +46,7 @@ end
 
 group :production do 
 	gem 'rails_12factor'
+	gem 'pg'
 end 
 
 gem 'httparty', '0.13.5'
